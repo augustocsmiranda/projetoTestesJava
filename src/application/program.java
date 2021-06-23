@@ -42,8 +42,9 @@ public class program {
 		for(int i = 0; i < m; i++){
 			for(int j = 0; j < n; j++){
 				matTotal[i][j] = matA[i][j] + matB[i][j]; 
-				System.out.println(matTotal[i][j]);
+				System.out.print(matTotal[i][j]+" ");
 			}
+			System.out.println();
 		}
 		sc.close();
 		
